@@ -1,5 +1,5 @@
 langdetect 
 transformers 
 SentencePiece
-PyTorch
+PyTorch==2.4
 Streamlit
