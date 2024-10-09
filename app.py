@@ -1,4 +1,4 @@
-import Streamlit as st
+import streamlit as st
 from transformers import MarianMTModel, MarianTokenizer
 
 # Supported languages and their MarianMT model names
