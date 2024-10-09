@@ -28,14 +28,8 @@ def translate_text(text, dest_language_code):
 # App title
 st.title("Patient Registration Form")
 
-# Select language
-language_options = ["None"] + list(languages.keys())
-
-selected_language = st.selectbox("Choose Language", list(languages_options.keys()))
-if selected_language == "None":
-    dest_language_code = None
-else:
-    dest_language_code = languages[selected_language]
+selected_language = st.selectbox("Choose Language", list(languages.keys()))
+dest_language_code = languages[selected_language]
 
 # Patient Registration Form
 st.header(translate_text("Personal Information", dest_language_code))
