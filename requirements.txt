@@ -2,3 +2,4 @@ langdetect
 transformers 
 SentencePiece
 PyTorch
+Streamlit
