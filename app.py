@@ -3,7 +3,6 @@ from transformers import MarianMTModel, MarianTokenizer
 
 # Supported languages and their MarianMT model names
 languages = {
-    'English': 'en',
     'Spanish': 'es',
     'French': 'fr',
     'German': 'de',
